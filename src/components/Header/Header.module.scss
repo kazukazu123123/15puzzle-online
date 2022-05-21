@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background: #333;
+  box-shadow: 0 0 5px 5px #2d2d2d;
+  transition: box-shadow ease-in-out 0.1s;
+  align-items: center;
+  padding-left: 8px;
+  user-select: none;
+  z-index: 2;
+  &:hover {
+    box-shadow: 0 0 5px 5px #2a2a2a;
+  }
+}
+
+.logoIcon {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #333;
+  display: flex;
+  font-size: 12pt;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  margin: 0 0 1 0;
+}
+
+.logoText {
+  font-size: 12pt;
+  color: white;
+  padding-left: 4px;
+}
