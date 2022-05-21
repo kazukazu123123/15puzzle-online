@@ -1,0 +1,70 @@
+.lobby {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  margin: 40px 0 0 0;
+  color: #fff;
+  z-index: 1;
+}
+
+.roomcreatebox {
+  width: 40vw;
+  height: 120px;
+  background: #333;
+  box-shadow: 0 0 5px 5px #2d2d2d;
+  transition: box-shadow ease-in-out 0.1s;
+  margin: 25px 0 0 0;
+  padding: 4px;
+  user-select: none;
+  z-index: 2;
+  &:hover {
+    box-shadow: 0 0 5px 5px #2a2a2a;
+  }
+  button {
+    width: calc(100% - 8px);
+    margin: 4px;
+  }
+  input {
+    width: calc(100% - 16px);
+    margin: 4px;
+  }
+}
+
+.roomlist {
+  top: 20vh;
+  width: 40vw;
+  height: calc(100vh - 300px);
+  background: #333;
+  box-shadow: 0 0 5px 5px #2d2d2d;
+  transition: box-shadow ease-in-out 0.1s;
+  padding: 4px;
+  margin: 8px;
+  overflow: auto;
+  margin-top: 32px;
+  user-select: none;
+  z-index: 2;
+  &:hover {
+    box-shadow: 0 0 5px 5px #2a2a2a;
+  }
+}
+
+.room {
+  height: 100px;
+  box-shadow: 0 0 5px 5px #2d2d2d;
+  transition: box-shadow ease-in-out 0.1s;
+  overflow: hidden;
+  padding: 4px;
+  margin: 8px 8px 16px 8px;
+  user-select: none;
+  z-index: 2;
+  &:hover {
+    box-shadow: 0 0 5px 5px #2a2a2a;
+  }
+}
+
+.hidden {
+  display: none;
+}

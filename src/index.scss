@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #333;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #222;
+  border-radius: 6px;
+  border: 2px solid #111;
+}
