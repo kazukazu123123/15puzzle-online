@@ -29,21 +29,21 @@ export function App() {
       })
       .on('game', (game: [string, UserData][]) => {
         setUserData(new Collection(game))
-        //console.log('game', game)
+        //console.log({game})
       })
       .on('leaveRoom', () => {
         setUserData(new Collection())
       })
       .on('roomId', (roomId: string) => {
-        console.log('roomId', roomId)
+        console.log({roomId})
       })
       .on('rooms', (rooms: [string, RoomData][]) => {
         setRooms(new Collection(rooms))
-        console.log('rooms', rooms)
+        console.log({rooms})
       })
       .on('status', (status: string) => {
         setStatus(status)
-        //console.log('status', status)
+        //console.log({status})
       })
       .on('toast', (type: ToastType, text: string) => {
         //console.log('toast', type, text)
