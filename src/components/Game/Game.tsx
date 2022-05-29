@@ -1,6 +1,6 @@
 import { Collection } from '@discordjs/collection'
 import React, { CSSProperties } from 'react'
-import { globalState } from '../../../libs/global-state';
+import { globalState } from '../../../libs/global-state'
 import { getSocketIO } from '../../../libs/use-socket-io'
 import styles from './Game.module.scss'
 const { useGlobalState } = globalState
@@ -29,10 +29,9 @@ interface GameProps {
 }
 
 export const Game = React.memo((props: GameProps) => {
+  const [roomId] = useGlobalState('roomId')
 
-  const [roomId,] = useGlobalState('roomId')
-
-  function tapPiece(e: React.MouseEvent<HTMLElement>) {
+  const tapPiece = (e: React.MouseEvent<HTMLElement>) => {
     const tapX = Number(e.currentTarget.dataset.x)
     const tapY = Number(e.currentTarget.dataset.y)
     getSocketIO().emit('tap', roomId, tapX, tapY)

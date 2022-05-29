@@ -1,0 +1,7 @@
+.settingIcon {
+  fill: #bbb;
+  transition: fill ease-in-out 0.1s;
+  &:hover {
+    fill: #eee;
+  }
+}

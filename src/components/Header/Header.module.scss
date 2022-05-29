@@ -34,3 +34,17 @@
   color: white;
   padding-left: 4px;
 }
+
+.leaveRoom {
+  width: 120px;
+  height: 24px;
+  box-shadow: 0 0 5px 5px #2d2d2d;
+  transition: box-shadow ease-in-out 0.1s;
+  align-items: center;
+  margin: 0 8px;
+  user-select: none;
+  z-index: 3;
+  &:hover {
+    box-shadow: 0 0 5px 5px #2a2a2a;
+  }
+}

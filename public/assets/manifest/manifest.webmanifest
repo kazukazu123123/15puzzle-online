@@ -1,0 +1,12 @@
+{
+  "name": "15 Puzzle Online",
+  "short_name": "15PO",
+  "description": "",
+  "icons": {
+    "name": "15-puzzle-online-logo.svg"
+  },
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#333",
+  "background_color": "#333"
+}

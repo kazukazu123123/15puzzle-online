@@ -8,16 +8,16 @@ import { Reconnecting } from './components/Reconnecting/Reconnecting'
 import { Lobby, RoomData } from './components/Lobby/Lobby'
 import { Game, UserData } from './components/Game/Game'
 import toast, { Toaster } from 'react-hot-toast'
-import { globalState } from '../libs/global-state'
+import { GameStatus, globalState } from '../libs/global-state'
 const { useGlobalState } = globalState
 
 export function App() {
+  type ToastType = '' | 'success' | 'error'
+
   const [rooms, setRooms] = useState(new Collection<string, RoomData>())
   const [, setRoomId] = useGlobalState('roomId')
   const [userData, setUserData] = useState(new Collection<string, UserData>())
-  const [status, setStatus] = useState('connecting')
-
-  type ToastType = '' | 'success' | 'error'
+  const [status, setStatus] = useGlobalState('gameStatus')
 
   const io = useSocketIO('http://kazukazu123123.f5.si:3250')
   useEffect(() => {
@@ -39,13 +39,14 @@ export function App() {
       })
       .on('roomId', (roomId: string) => {
         setRoomId(roomId)
-        console.log({ roomId })
+        //console.log({ roomId })
       })
       .on('rooms', (rooms: [string, RoomData][]) => {
         setRooms(new Collection(rooms))
-        console.log({ rooms })
+        //console.log({ rooms })
       })
-      .on('status', (status: string) => {
+      .on('status', (status: GameStatus) => {
+        if (!GameStatus.includes(status)) return
         setStatus(status)
         //console.log({status})
       })
