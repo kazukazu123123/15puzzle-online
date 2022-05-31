@@ -71,6 +71,7 @@ export const Lobby = React.memo((props: LobbyProps) => {
                 className={styles.room}
                 onClick={joinRoom}
               >
+                <p>Id: {room.id}</p>
                 <p>Name: {room.name}</p>
                 <p>Description: {room.description}</p>
                 <p>Has password: {room.hasPassword ? 'true' : 'false'}</p>

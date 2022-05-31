@@ -2,6 +2,7 @@ import { Collection } from '@discordjs/collection'
 import React, { CSSProperties } from 'react'
 import { globalState } from '../../../libs/global-state'
 import { getSocketIO } from '../../../libs/use-socket-io'
+import { joinClassNames as join } from '../../../libs/join-class-names'
 import styles from './Game.module.scss'
 const { useGlobalState } = globalState
 
@@ -52,21 +53,19 @@ export const Game = React.memo((props: GameProps) => {
                     .map((piece) => {
                       return (
                         <div
-                          id={'piece-' + piece.index}
                           style={
                             { '--x': piece.x, '--y': piece.y } as CSSProperties
                           }
+                          data-id={piece.id}
                           data-x={piece.x}
                           data-y={piece.y}
-                          className={
-                            piece.index + 1 === piece.id
-                              ? styles.piece + ' ' + styles.correct
-                              : styles.piece
-                          }
+                          className={join(
+                            styles.piece,
+                            piece.index + 1 === piece.id && styles.correct                          )}
                           onClick={tapPiece}
                         >
                           <div className={styles.content}>
-                            {piece.id !== 0 ? piece.id : ''}
+                            {piece.id !== 0 ? piece.id : 'R'}
                           </div>
                         </div>
                       )
