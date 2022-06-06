@@ -6,7 +6,7 @@
     "build": "webpack --mode production",
     "pretty": "prettier --write ."
   },
-  "packageManager": "pnpm@7.1.7",
+  "packageManager": "pnpm@7.1.9",
   "engines": {
     "npm": "This project is configured to use pnpm"
   },
