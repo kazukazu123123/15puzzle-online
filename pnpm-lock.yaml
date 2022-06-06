@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': 7.18.2
   '@discordjs/collection': 0.6.0
-  '@types/react': 18.0.10
+  '@types/react': 18.0.12
   '@types/react-dom': 18.0.5
   babel-loader: 8.2.5
   css-loader: 6.7.1
@@ -28,7 +28,7 @@ specifiers:
 
 dependencies:
   '@discordjs/collection': 0.6.0
-  '@types/react': 18.0.10
+  '@types/react': 18.0.12
   '@types/react-dom': 18.0.5
   csstype: 3.1.0
   react: 18.1.0
@@ -401,11 +401,11 @@ packages:
   /@types/react-dom/18.0.5:
     resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
-      '@types/react': 18.0.10
+      '@types/react': 18.0.12
     dev: false
 
-  /@types/react/18.0.10:
-    resolution: {integrity: sha512-dIugadZuIPrRzvIEevIu7A1smqOAjkSMv8qOfwPt9Ve6i6JT/FQcCHyk2qIAxwsQNKZt5/oGR0T4z9h2dXRAkg==}
+  /@types/react/18.0.12:
+    resolution: {integrity: sha512-duF1OTASSBQtcigUvhuiTB1Ya3OvSy+xORCiEf20H0P0lzx+/KeVsA99U5UjLXSbyo1DRJDlLKqTeM1ngosqtg==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
