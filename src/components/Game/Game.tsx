@@ -42,6 +42,7 @@ export const Game = React.memo((props: GameProps) => {
     <div className={props.isVisible ? styles.lobby : styles.hidden}>
       <div className={styles.game}>
         {props.users.map((user) => {
+          console.log(user.puzzle.pieces)
           return (
             <>
               <div className={styles.puzzleContainer}>
