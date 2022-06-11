@@ -5,12 +5,10 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
+      "matchPackagePatterns": [
+        "*"
+      ],
       "rangeStrategy": "pin"
     }
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["after 10am"]
-  }
+  ]
 }
