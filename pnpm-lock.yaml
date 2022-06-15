@@ -9,7 +9,7 @@ specifiers:
   css-loader: 6.7.1
   csstype: 3.1.0
   npm-run-all: 4.1.5
-  prettier: 2.6.2
+  prettier: 2.7.0
   react: 18.2.0
   react-dom: 18.2.0
   react-hooks-global-state: 1.0.2
@@ -43,7 +43,7 @@ devDependencies:
   babel-loader: 8.2.5_dzrarqmejens5o5lr5bdn3kdtu
   css-loader: 6.7.1_webpack@5.73.0
   npm-run-all: 4.1.5
-  prettier: 2.6.2
+  prettier: 2.7.0
   sass: 1.52.3
   sass-loader: 13.0.0_sass@1.52.3+webpack@5.73.0
   scss-loader: 0.0.1
@@ -2279,8 +2279,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.0:
+    resolution: {integrity: sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
