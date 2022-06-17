@@ -21,7 +21,7 @@ specifiers:
   socket.io-client: 4.5.1
   style-loader: 3.3.1
   ts-loader: 9.3.0
-  typescript: 4.7.3
+  typescript: 4.7.4
   webpack: 5.73.0
   webpack-cli: 4.10.0
   webpack-dev-server: 4.9.2
@@ -48,8 +48,8 @@ devDependencies:
   sass-loader: 13.0.0_sass@1.52.3+webpack@5.73.0
   scss-loader: 0.0.1
   style-loader: 3.3.1_webpack@5.73.0
-  ts-loader: 9.3.0_jy5w4alwxi2du2dgjfsq7k3iza
-  typescript: 4.7.3
+  ts-loader: 9.3.0_3o2jfq6vfqxns3sz6wn2nnc3ei
+  typescript: 4.7.4
   webpack: 5.73.0_webpack-cli@4.10.0
   webpack-cli: 4.10.0_hnfkmnck6ti4dm6ulhhz44v2ju
   webpack-dev-server: 4.9.2_77l47gmqkrqiei5z7sbwz5iaj4
@@ -2941,7 +2941,7 @@ packages:
     engines: {node: '>=0.6'}
     dev: true
 
-  /ts-loader/9.3.0_jy5w4alwxi2du2dgjfsq7k3iza:
+  /ts-loader/9.3.0_3o2jfq6vfqxns3sz6wn2nnc3ei:
     resolution: {integrity: sha512-2kLLAdAD+FCKijvGKi9sS0OzoqxLCF3CxHpok7rVgCZ5UldRzH0TkbwG9XECKjBzHsAewntC5oDaI/FwKzEUog==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2952,7 +2952,7 @@ packages:
       enhanced-resolve: 5.9.3
       micromatch: 4.0.5
       semver: 7.3.7
-      typescript: 4.7.3
+      typescript: 4.7.4
       webpack: 5.73.0_webpack-cli@4.10.0
     dev: true
 
@@ -2964,8 +2964,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript/4.7.3:
-    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
