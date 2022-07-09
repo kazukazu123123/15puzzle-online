@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': 7.18.6
   '@discordjs/collection': 0.7.0
   '@types/react': 18.0.15
-  '@types/react-dom': 18.0.5
+  '@types/react-dom': 18.0.6
   babel-loader: 8.2.5
   css-loader: 6.7.1
   csstype: 3.1.0
@@ -29,7 +29,7 @@ specifiers:
 dependencies:
   '@discordjs/collection': 0.7.0
   '@types/react': 18.0.15
-  '@types/react-dom': 18.0.5
+  '@types/react-dom': 18.0.6
   csstype: 3.1.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -405,8 +405,8 @@ packages:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
     dev: true
 
-  /@types/react-dom/18.0.5:
-    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
+  /@types/react-dom/18.0.6:
+    resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
       '@types/react': 18.0.15
     dev: false
