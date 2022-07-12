@@ -13,7 +13,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   react-hooks-global-state: 1.0.2
-  react-hot-toast: 2.2.0
+  react-hot-toast: 2.3.0
   reset-css: 5.0.1
   sass: 1.53.0
   sass-loader: 13.0.2
@@ -34,7 +34,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hooks-global-state: 1.0.2_react@18.2.0
-  react-hot-toast: 2.2.0_vt6aeitzauirmcdhimiad2yjxy
+  react-hot-toast: 2.3.0_vt6aeitzauirmcdhimiad2yjxy
   reset-css: 5.0.1
   socket.io-client: 4.5.1
 
@@ -2347,8 +2347,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /react-hot-toast/2.2.0_vt6aeitzauirmcdhimiad2yjxy:
-    resolution: {integrity: sha512-248rXw13uhf/6TNDVzagX+y7R8J183rp7MwUMNkcrBRyHj/jWOggfXTGlM8zAOuh701WyVW+eUaWG2LeSufX9g==}
+  /react-hot-toast/2.3.0_vt6aeitzauirmcdhimiad2yjxy:
+    resolution: {integrity: sha512-/RxV+bfjld7tSJR1SCLzMAXgFuNW7fCpK6+vbYqfmbGSWcqTMz2rizrvfWKvtcPH5HK0NqxmBaC5SrAy1F42zA==}
     engines: {node: '>=10'}
     peerDependencies:
       react: '>=16'
