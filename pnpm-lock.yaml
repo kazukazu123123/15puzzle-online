@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': 7.18.6
-  '@discordjs/collection': 0.7.0
+  '@discordjs/collection': 1.0.0
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
   babel-loader: 8.2.5
@@ -27,7 +27,7 @@ specifiers:
   webpack-dev-server: 4.9.3
 
 dependencies:
-  '@discordjs/collection': 0.7.0
+  '@discordjs/collection': 1.0.0
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
   csstype: 3.1.0
@@ -251,8 +251,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@discordjs/collection/0.7.0:
-    resolution: {integrity: sha512-R5i8Wb8kIcBAFEPLLf7LVBQKBDYUL+ekb23sOgpkpyGT+V4P7V83wTxcsqmX+PbqHt4cEHn053uMWfRqh/Z/nA==}
+  /@discordjs/collection/1.0.0:
+    resolution: {integrity: sha512-nAxDQYE5dNAzEGQ7HU20sujDsG5vLowUKCEqZkKUIlrXERZFTt/60zKUj/g4+AVCGeq+pXC5hivMaNtiC+PY5Q==}
     engines: {node: '>=16.9.0'}
     dev: false
 
